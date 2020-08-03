@@ -4,9 +4,7 @@
 		"details": [
 			{
 				"appID": "6ZBARRDHAK.com.mindstrong",
-				"paths": [ "/app/message, 
-							/app/home,
-							/app/*"]
+				"paths": [ "/app/*"]
 			}
 		]
 	}
