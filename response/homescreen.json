@@ -1,0 +1,78 @@
+{
+    "modules": [
+        {
+            "type": "survey",
+            "actTime": 1600671600000,
+            "expTime": 1601276400000,
+            "layout": "generic",
+            "bgColor": "msGreen",
+            "iconUrl": "https://s3-us-west-2.amazonaws.com/mindstronghealth.com.static.public/icons/en/clipboard.pdf",
+            "states": [
+                {
+                    "title": {
+                        "default": "How's your health been lately?",
+                        "preferred": "How's your health been lately?"
+                    },
+                    "ctaLabel": {
+                        "default": "Let us know how you're doing?",
+                        "preferred": "Let us know how you're doing?"
+                    },
+                    "cta": {
+                        "category": "survey"
+                    },
+                    "startsAt": 0
+                }
+            ]
+        },
+        {
+            "type": "consent-new-feature",
+            "actTime": 1598398612333,
+            "expTime": 1598657812333,
+            "layout": "generic",
+            "bgColor": "msGreen",
+            "iconUrl": "https://s3-us-west-2.amazonaws.com/mindstronghealth.com.static.public/icons/en/roi.pdf",
+            "states": [
+                {
+                    "title": {
+                        "default": "This is a new feature.",
+                        "preferred": "This is a new feature.",
+                        "unregCTA": "This is a new feature. Please upgrade!"
+                    },
+                    "ctaLabel": {
+                        "default": "Give permission new",
+                        "preferred": "Give permission new",
+                        "unregCTA": "Upgrade new"
+                    },
+                    "cta": {
+                        "category": "consent"
+                    },
+                    "unregCTA": {
+                        "category": "upgrade"
+                    }
+
+                }
+            ]
+        },
+        {
+            "type": "default",
+            "layout": "generic",
+            "bgColor": "msBlue",
+            "iconUrl": "https://s3-us-west-2.amazonaws.com/mindstronghealth.com.static.public/icons/en/bug.pdf",
+            "states": [
+                {
+                    "title": {
+                        "default": "We're always here when you need us.",
+                        "preferred": "We're always here when you need us."
+                    },
+                    "ctaLabel": {
+                        "default": "Learn how Mindstrong works.",
+                        "preferred": "Learn how Mindstrong works."
+                    },
+                    "cta": {
+                        "category": "howMsWorks"
+                    }
+                }
+            ]
+        }
+    ]
+}
