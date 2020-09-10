@@ -39,12 +39,12 @@
                         "unregCTA": "This is a new feature. Please upgrade!"
                     },
                     "ctaLabel": {
-                        "default": "Give permission new",
-                        "preferred": "Give permission new",
+                        "default": "Give permission new default",
+                        "preferred": "Give permission new preferred",
                         "unregCTA": "Upgrade new"
                     },
                     "cta": {
-                        "category": "consent"
+                        "category": "unrecognized"
                     },
                     "unregCTA": {
                         "category": "upgrade"
