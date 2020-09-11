@@ -45,11 +45,7 @@
                     },
                     "cta": {
                         "category": "unrecognized"
-                    },
-                    "unregCTA": {
-                        "category": "upgrade"
                     }
-
                 }
             ]
         },
